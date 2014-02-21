@@ -1,0 +1,38 @@
+html body {
+    font-family: ubuntu, arial, sans-serif;
+    font-size: 100%;
+    color: #333333;
+}
+
+.chart-wrapper {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.chart-wrapper h2 {
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.chart-wrapper .chart {
+    width: 100%;
+    border: thin solid #333333;
+    height: 290px;
+    border-radius: 3px;
+}
+
+svg rect {
+  fill: steelblue;
+}
+
+svg text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+svg text.chart-label {
+  fill: #333333;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
